@@ -59,7 +59,7 @@ This project is a music application built using Next.js 14, providing users with
 
 2. **Install Dependencies:**
     ```bash
-    cd nextjs14-music-app
+    cd aryanmusic
     npm install
     ```
 
