@@ -34,3 +34,48 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+# Next.js 14 Music App
+
+## Description
+
+This project is a music application built using Next.js 14, providing users with the ability to explore, listen, and manage songs online.
+
+## Features
+
+- **Song Exploration:** Browse a collection of songs and view their details.
+- **Online Streaming:** Stream songs in real-time.
+- **Song Search:** Search for specific songs conveniently.
+- **Playlist Creation:** Create and manage personalized playlists.
+
+## Installation
+
+1. **Clone Repository:**
+    ```bash
+    git clone https://github.com/your-username/nextjs14-music-app.git
+    ```
+
+2. **Install Dependencies:**
+    ```bash
+    cd nextjs14-music-app
+    npm install
+    ```
+
+## Usage
+
+1. **Run the Project:**
+    ```bash
+    npm run dev
+    ```
+
+2. **Access the App:**
+    Open your browser and go to `http://localhost:3000`.
+
+## Contributors
+
+- Aryan Salemabadi
+## License
+
+This project is licensed under the [MIT License](LICENSE).
