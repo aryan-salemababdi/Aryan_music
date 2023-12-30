@@ -174,7 +174,7 @@ const Header: NextPage<HeaderProps> = ({ children }) => {
                   >
                     <ListItem>
                       <Link
-                        href="/blogs"
+                        href="/albums"
                         style={{ textDecoration: "none", color: "#ffffff" }}
                       >
                         <Typography
@@ -182,7 +182,7 @@ const Header: NextPage<HeaderProps> = ({ children }) => {
                           variant="h6"
                           color="white"
                         >
-                       وبلاگ
+                       آلبوم ها
                         </Typography>
                       </Link>
                     </ListItem>
