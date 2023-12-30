@@ -1,7 +1,9 @@
+import Landing from "@/components/molecule/Landing/Landing";
+
 export default function Home() {
   return (
     <main>
-      <h2>Aryan music</h2>
+      <Landing />
     </main>
   )
 }
