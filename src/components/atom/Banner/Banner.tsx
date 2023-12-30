@@ -67,23 +67,13 @@ const Banner = () => {
         >
           Surrender by Music
         </Typography>
-        <Box mb={10} mt={1}>
-          <TextField
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
-            label="search music ..."
-            variant="filled"
-            color="error"
-            sx={{ background: "white", borderRadius: "5px" }}
-          />
-        </Box>
         <Box
           sx={{
             display: "grid",
             justifyContent: "center",
             gridTemplateColumns: "repeat(2,2fr)",
           }}
-          mt={10}
+          mb={9}
         >
           <Button
             variant="contained"
@@ -119,6 +109,16 @@ const Banner = () => {
               درباره من
             </Typography>
           </Button>
+        </Box>
+        <Box mb={10} mt={1}>
+          <TextField
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            label="search music ..."
+            variant="filled"
+            color="error"
+            sx={{ background: "white", borderRadius: "5px" }}
+          />
         </Box>
       </div>
     </>
