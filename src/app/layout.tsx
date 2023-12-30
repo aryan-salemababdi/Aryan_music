@@ -20,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fa">
-        <body>
+        <body style={{margin:0,padding:0}}>
         <header>
           <Header>{children}</Header>
         </header>
